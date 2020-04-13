@@ -1,0 +1,35 @@
+<div>
+    <mat-form-field>
+        <mat-label>Genres</mat-label>
+        <mat-select size="10" [formControl]="genre" (selectionChange)="searchMovie()">
+            <mat-option *ngFor="let gen of allgenres" [value]="gen">{{gen}}</mat-option>
+        </mat-select>
+    </mat-form-field>
+
+    <table mat-table [dataSource]="searchedmovies" class="movies-table">
+        <ng-container matColumnDef="index">
+            <th mat-header-cell *matHeaderCellDef>No.</th>
+            <td mat-cell *matCellDef="let movie; let i= index">{{ i + 1 }}</td>
+        </ng-container>
+        <ng-container matColumnDef="name">
+            <th mat-header-cell *matHeaderCellDef>Movie Name</th>
+            <td mat-cell *matCellDef="let movie">{{ movie.movieName }}</td>
+        </ng-container>
+        <ng-container matColumnDef="releasedate" style="width:
+                max-content;">
+            <th mat-header-cell *matHeaderCellDef>Movie Release Date</th>
+            <td mat-cell *matCellDef="let movie">{{ movie.movieReleasedate
+                    }}</td>
+        </ng-container>
+        <ng-container matColumnDef="rating">
+            <th mat-header-cell *matHeaderCellDef>Movie Rating</th>
+            <td mat-cell *matCellDef="let movie">{{ movie.movieRating }}</td>
+        </ng-container>
+        <ng-container matColumnDef="genre">
+            <th mat-header-cell *matHeaderCellDef>Movie Genre</th>
+            <td mat-cell *matCellDef="let movie">{{ movie.movieGenre }}</td>
+        </ng-container>
+        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+        <tr mat-row *matRowDef="let row; columns: displayedColumns"></tr>
+    </table>
+</div>

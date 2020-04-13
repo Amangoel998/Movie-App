@@ -1,0 +1,25 @@
+<!--Toolbar-->
+<mat-toolbar color="primary" class="toolbar-header">
+    <mat-toolbar-row>
+        <a style="text-decoration: none; color: inherit;" href="/home"><span><mat-icon
+                    class="icon-padding">local_movies</mat-icon>Movie App</span></a>
+        <span class="toolbar-spacer"></span>
+
+        <button
+            color="primary"
+            (click)="addDialog()"
+            mat-flat-button
+            class="side-button">
+            Add Movie<mat-icon class="icon-padding">add</mat-icon>
+        </button>
+    </mat-toolbar-row>
+</mat-toolbar>
+<mat-sidenav-container class="main-container">
+    <mat-sidenav-content class="content-container">
+        <mat-tab-group>
+            <mat-tab label="All Songs"><app-home></app-home> </mat-tab>
+            <mat-tab label="Search Artists">
+              <app-search></app-search>
+            </mat-tab>
+          </mat-tab-group></mat-sidenav-content>
+</mat-sidenav-container>

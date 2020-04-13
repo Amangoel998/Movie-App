@@ -1,0 +1,8 @@
+:host{
+    display: flex;
+    justify-content: center;
+}
+.movies-table{
+    margin: 20px;
+    width: 1000px;
+}
