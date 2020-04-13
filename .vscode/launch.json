@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-SpringbootMovieappApplication<springboot_movieapp>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.cg.movieapp.restcontroller.SpringbootMovieappApplication",
+            "projectName": "springboot_movieapp",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-SpringbootMovieappApplication<springboot_movieapp>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.cg.movieapp.SpringbootMovieappApplication",
+            "projectName": "springboot_movieapp",
+            "args": ""
+        }
+    ]
+}
