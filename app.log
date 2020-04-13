@@ -1198,3 +1198,18 @@ java.sql.SQLIntegrityConstraintViolationException: Column 'Movie_Genre' cannot b
 2020-04-13 19:07:13,278 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 2020-04-13 19:07:14,704 INFO com.cg.movieapp.SpringbootMovieappApplication [main] Started SpringbootMovieappApplication in 8.849 seconds (JVM running for 13.142)
 2020-04-13 19:11:08,944 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-5000-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-13 19:44:32,924 INFO com.cg.movieapp.SpringbootMovieappApplication [main] Starting SpringbootMovieappApplication on DESKTOP-EKE6RM3 with PID 5972 (D:\Projects\Movie App\target\classes started by amant in d:\Projects\Movie App)
+2020-04-13 19:44:32,929 INFO com.cg.movieapp.SpringbootMovieappApplication [main] No active profile set, falling back to default profiles: default
+2020-04-13 19:44:34,983 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-04-13 19:44:34,984 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-13 19:44:35,204 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-04-13 19:44:35,403 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-04-13 19:44:35,654 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-04-13 19:44:35,746 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-13 19:44:35,899 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-13 19:44:36,093 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-13 19:44:36,280 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-04-13 19:44:37,322 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-13 19:44:38,515 INFO com.cg.movieapp.SpringbootMovieappApplication [main] Started SpringbootMovieappApplication in 6.28 seconds (JVM running for 7.669)
+2020-04-13 20:04:49,982 WARN com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m14s128ms699µs300ns).
+2020-04-13 20:10:04,945 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-5000-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
