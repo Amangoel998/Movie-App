@@ -8,7 +8,7 @@ This is simple Movie Application that is intended to add and view movies and the
 
 //Windows
 ./mvnw.cmd clean install
-mvnw.cmd spring-boot-run
+./mvnw.cmd spring-boot-run
 
 //To run Angular
 cd ./frontend
