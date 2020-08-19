@@ -11,6 +11,7 @@
               required.</mat-error>
             <mat-error *ngIf="name.errors && name.errors.minlength">
               Name must be at least of Length 2.</mat-error>
+              <mat-error *ngIf="name.errors && name.errors.pattern">Movie Name should start with Capital Letter</mat-error>
           </mat-form-field>
         </div>
       </td>
